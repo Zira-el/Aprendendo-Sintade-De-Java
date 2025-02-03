@@ -1,4 +1,4 @@
-package edu.nilt.primeirasemana;
+package edu.nilt.classes;
 
 public class MinhaClasse {
     public static void main (String [] args) {
