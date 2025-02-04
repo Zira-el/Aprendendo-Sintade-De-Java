@@ -54,4 +54,8 @@ Palavras reservadas:
 		- public: acesso de qualquer classe
 		- private: acesso apenas dentro da classe
 		- protected: acesso por classes no mesmo pacote e subclasses (usada com heranças)
-		
+
+Terminal e argumentos:
+
+	- Comando para forçar a compilação para a versão que se deseja no Java:  javac --release 8 -d <pasta de binário>
+	- Comando para rodar a classe Java direto no terminal: java -cp <pastaBinarios>/<PastaDaClasse>

@@ -1,6 +1,6 @@
 package edu.nilt.classes;
 
-public class MinhaClasse {
+public class MinhaPrimeiraClasse {
     public static void main (String [] args) {
         String primeiroNome = "Nilt";
         String segundoNome = "Menezes";
