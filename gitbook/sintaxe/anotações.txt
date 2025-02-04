@@ -1,0 +1,57 @@
+Anatomia das Classes: 2601
+
+	Convenções de escrita:
+		- O arquivo tem como extensão o .java
+		- Todo arquivo deve começar com a letra maiúscula como, por exemplo: Arquivo.java, CalculadoraCientifica.java
+		- A classe deve possuir o mesmo nome do arquivo
+		- Nome de variável deve ser escrita com letra minúscula, a menos que seja palavra composta. Então aí usamos o "camelCase".
+		- No caso da variável ter o seu nome todo em maiúsculo (upperCase), fica sub-entendido que essa variável não deverá/poderá ter seu valor alterado. Exemplo: double PI = 3,1412
+
+	Convenções de sub diretório:
+		- <tipoDaPropostaDoProjeto>.<nomeDaEmpresa>.<tipoDoServiço>. Exemplo de pacote: edu.nilt.javasintaxe.classes
+		
+	Java Beans
+		- É uma iniciativa conceitual da comunidade para ter um padrão de escrita e mais facilidade de leitura.
+		- Sugere formas de escritas universais para nossas classes, atributos, métodos e pacotes.
+		- Variáveis: não abreviar a variável, usar nomes que façam sentido, usar uma única linguagem (PT, EN, etc) e não misturar a linguagem na mesma aplicação, usar a palavra no singular se não for um array de valores.
+		- Métodos: Deverão ser nomeados como verbos no infinitivo em uma mistúra de minúscula e maiúscula. Exemplo: "somar, abrirConexao, concluirProcessamento, findById".
+		
+Tipos de variáveis:
+	
+	- Os oito tipos primitivos em Java são: int, byte, short, long, float, double, boolena e char. Eles são armazenados diretamente na pilha de memória (Memory stack)
+	- É comum usar muito o "int" por conta do JVM converter os valores, mesmo pequenos, para esse tipo.
+	- Em números de ponto flutuante é mais comum usar o double por conta da precisão decimal.
+	- Declaração da variável em Java: <Tipo> <nomeVariavel> <atribuicaoDeValorOpcional>
+	- Se a variável for do tipo float ela tem que encerrar com um F. Exemplo: float pi = 3.24F. O mesmo com o long, exemplo: long number = 1234567890L.
+	- As "Constantes" em Java são representadas pela palavra reservada "final" seguida do tipo.
+	
+Operadores:
+
+	- Simbolos especiais que tem um signigicado próprio para a linguagem e estão associados a determinadas operações.
+	- Operadores unários são aplicados com um outro operador aritmético para realizar trabalhos básicos como incrementar, decrementar, inverter valores númericos e booleanos.
+
+Métodos:
+
+	- Todas as ações das aplicações são consideradas métodos.
+	- Métodos são funções ou sub-rotinas disponíveis dentro da classe.
+	- Critério de nomeação de Métodos
+		- Deve ser nomeado como verbo no ifinitivo
+		- Seguir padrão camelCase
+	- Não existe em java o conceito de métodos globais. Todos os métodos devem sempre ser definidos de uma classe.
+	- Caso o método não retorne nenhum valor, ele será representado pela palavra reservada "void".
+	
+Palavras reservadas:
+
+	- No Java existem 52 palavras reservadas
+	- São identificadores de uma linguagem que já possuem uma finalidade específica, então não podem ser utilizadas para nomear variáveis, classes, métodos ou atributos.
+	
+	- Controles de pacotes:
+
+		- Import: importa pacotes ou classes para dentro do código
+		- package: especifica a que pacote todas as classes de um arquivo pertencem
+	
+	- Modificadores de acesso:
+		- public: acesso de qualquer classe
+		- private: acesso apenas dentro da classe
+		- protected: acesso por classes no mesmo pacote e subclasses (usada com heranças)
+		
