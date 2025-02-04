@@ -59,3 +59,7 @@ Terminal e argumentos:
 
 	- Comando para forçar a compilação para a versão que se deseja no Java:  javac --release 8 -d <pasta de binário>
 	- Comando para rodar a classe Java direto no terminal: java -cp <pastaBinarios>/<PastaDaClasse>
+	
+Argumentos:
+
+	- Quando exercutamos uma classe que contenha o método main, o mesmo permite que passemos um array [] de argumentos do tipo String. Logo podemos, após a definição da classe a ser executada, informar estes parâmetros.
